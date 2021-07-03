@@ -1,0 +1,123 @@
+html {
+  scroll-behavior: smooth;
+}
+div#middle {
+  min-width: 900px;
+}
+
+* {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+div {
+  padding: 0px;
+  margin: 0px;
+}
+.part-1 {
+  height: 100vh;
+  background-image: url("./annie-spratt-M20ylqCzSZw-unsplash1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  text-align: center;
+  font-size: x-large;
+  background-position: center;
+  opacity: 100%;
+  filter: brightness(0.8);
+}
+
+.navv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: black;
+}
+.part-2 {
+  height: 100vh;
+  text-align: center;
+  color: black;
+  background-image: url("./joanna-kosinska-0CQfTLOVTPU-unsplash.jpg");
+
+  background-size: cover;
+  font-size: large;
+  background-position: 50% 50%;
+  background-color: rgb(235, 217, 179);
+}
+.part-3 {
+  background-image: url("./jason-leung-Xaanw0s0pMk-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.head2 {
+  font-size: x-large;
+}
+li,
+a,
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: edf0f1;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: black;
+}
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  position: relative;
+  left: 50px;
+}
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: palevioletred;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgb(102, 48, 201);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(102, 48, 201, 0.8);
+}
+
+.gallery {
+  margin: 10px 50px;
+}
+.gallery img {
+  width: 250px;
+  padding: 5px;
+  margin: 5px 10px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+.gallery img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
